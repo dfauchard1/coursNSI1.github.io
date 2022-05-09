@@ -1,0 +1,1 @@
+benchmark = ["cutting('I am hungry') == ['I','am','hungry']", "cutting('') == ['']"]

@@ -1,0 +1,1 @@
+benchmark = ['nombre_mots("Mon chien est beau.") == 4', 'nombre_mots("") == 0', 'nombre_mots("L\'esthète a des vices que la vertu ignore.") == 8']

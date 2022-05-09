@@ -1,0 +1,3 @@
+def cutting(sentence: str) -> list:
+    #.........
+    return list_of_words

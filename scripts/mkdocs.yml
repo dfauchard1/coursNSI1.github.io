@@ -1,0 +1,20 @@
+site_name: "Terminal et REPL dans Mkdocs"
+
+...
+
+theme:
+    name: material
+    custom_dir: my_theme_customizations/
+  
+...
+
+extra_javascript:
+  - xtra/javascripts/mathjax-config.js                    # MathJax
+  - javascripts/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - xtra/javascripts/interpreter.js
+
+extra_css:
+  - xtra/stylesheets/pyoditeur.css
+  - xtra/stylesheets/ajustements.css                      # ajustements
